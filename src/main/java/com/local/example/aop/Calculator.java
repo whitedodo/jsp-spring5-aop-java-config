@@ -40,7 +40,7 @@ public class Calculator {
 		long result = x + y + z;
 		System.out.println("비즈니스 로직");
 		
-		// long d = result / 0; //- 일부러 만든 코드(After Throws 보여줄려고)
+		long d = result / 0; //- 일부러 만든 코드(After Throws 보여줄려고)
 		
 		return result;
 		
